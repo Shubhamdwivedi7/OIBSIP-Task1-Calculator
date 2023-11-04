@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+}
+body {
+    text-align: center;
+}
+.heading {
+    margin: auto;
+    background-color: #191717;
+    color: #CCC8AA;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Young Serif',serif;
+    width: 399px;
+}
+/* CALCULATOR BOX */
+.calc-box {
+    border: 1px solid black;
+    width: fit-content;
+    background-color: #CCC8AA;
+    margin: auto;
+}
+/* calculator screen */
+.screen {
+    height: 100px;
+    width: 100%;
+    border: 7px solid #CCC8AA;
+    border-radius: 1rem;
+    background-color: #F1EFEF;
+}
+
+.screen-input {
+    height: 90px;
+    width: 100%;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+/* calculator buttons */
+.button {
+    background-color: #F1EFEF;
+    width: 4rem;
+    height: 4rem;
+    margin: 5px;
+    font-family: 'Young Serif',serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #191717;
+    border: 2px solid grey;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
